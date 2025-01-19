@@ -39,7 +39,7 @@ def fetch_data_from_website(registrations, driver):
 
     """Fetches car details for each registration number from the website."""
 
-    url = "https://motorway.co.uk/"  # Example site
+    url = "https://motorway.co.uk/"  
 
     driver.get(url)
 
@@ -137,7 +137,7 @@ def main():
 
     # Step 2: Setup Selenium WebDriver
 
-    driver = webdriver.Chrome()  # Ensure chromedriver is in PATH
+    driver = webdriver.Chrome()  
 
 
 
